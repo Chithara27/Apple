@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Apple</title>
+</head>
+  <style>
+    body{
+  background-color:gainsboro;
+}
+
+nav{
+  height:30px;
+  background-color:black;
+  width:100%;
+}
+nav ul{
+  list-style:none;
+  padding-left:0;
+  display:flex;
+  justify-content:space-around;
+}
+nav ul li{
+  color:white;
+  line-height:25px;
+}
+header #first {
+  background-color:blue;
+  display:flex;
+  font-size:15px;
+  color:white;
+  padding-left:0;
+  
+}
+header div {
+  background-color:white;
+  display:flex;
+  font-size:15px;
+  padding-left:0
+
+}
+header div{
+  text-align:center;
+}
+
+#iphone-6 h1{
+  text-align:center;
+  color:white
+}
+#iphone-6 h2{
+  text-align:center;
+  color:white;
+}
+#iphone-6 h3{
+  text-align:center;
+  color:gray;
+}
+#iphone-6 h4{
+  color:blue;
+  text-align:center;
+}
+.center{
+  display:block;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#iphone-6{
+  background-color:black;
+}
+#iphone-11 h1{
+  text-align:center;
+  color:black;
+}
+#iphone-11 h2{
+  text-align:center;
+  color:black;
+}
+#iphone-11 h3{
+  text-align:center;
+  color:gray;
+}
+#iphone-11 h4{
+  text-align:center;
+  color:blue;
+}
+.image{
+  display:block;
+  width:100%
+  margin-left:auto;
+  margin-right:auto;
+}
+#iphone-11{
+  background-color:white;
+}
+#ipad h1{
+  text-align:center;
+  color:black;
+}
+#ipad h2{
+  text-align:center;
+  color:black;
+}
+#ipad h3{
+  text-align:center;
+  color:gray;
+}
+#ipad h4{
+  text-align:center;
+  color:blue;
+}
+.ipad-pro{
+  display:block;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#ipad {
+  background-color:white;
+}
+#watchOS h1{
+  text-align:center;
+  color:black;
+}
+#watchOS h2{
+  text-align:center;
+  color:black;
+}
+#watchOS h3{
+  color:gray;
+  text-align:center;
+}
+#watchOS h4{
+ color:blue;
+ text-align:center;
+}
+.watchOS-7{
+  display:block;
+  width:500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#watchOS{
+  background-color:white;
+}
+article{
+  display:flex;
+  flex-flow:row nowrap;
+}
+#Shop{
+  width:15%;
+  margin:0 1px;
+  font-size:13px;
+  list-style:none;
+}
+#Service{
+  width:15%;
+  margin:0 1px;
+  font-size:13px;
+  list-style:none;
+}
+#store{
+  width:15%;
+  margin:0 1px;
+  font-size:13px;
+  list-style:none
+}
+#value{
+  width:15%
+  margin:0 1px;
+  font-size:13px;
+  list-style:none;
+}
+</style>
+<body>
+  <nav>
+    <ul>
+      <li>Mac</li>
+      <li>ipad</li>
+      <li>iphone</li>
+      <li>Watch</li>
+      <li>TV</li>
+      <li>Music</li>
+      <li>Support</li>
+    </ul>
+  </nav>
+  <header>
+    <div id="first">
+    <p>Evaluate covid-19 Symtoms and evaluate ></p>
+    </div>
+    <div>
+      <p><span style="color:blue">Shop online</span> and get free,no contact delivary,specialist help,more.</p>
+    </div>
+  </header>
+  <section id="iphone-6">
+  <h1>iphone 6 plus</h1>
+  <h2>Lots to love.Less to spend Starting at $399</h2>
+  <h3>From $9.54/mo or $299 with trade-in.</h3>
+    <h4>Learn more   >         Buy ></h4>
+  <section>
+    <img src="https://mediad.publicbroadcasting.net/p/wjct/files/styles/x_large/public/201312/iphone_camera_flickr.png" class="center">
+  </section>
+  </section>
+  <section id="iphone-11">
+    <h1>iphone 11</h1>
+    <h2>Just a Right Amount of Evrything</h2>
+    <h3>From $18.70/mo.or $499 with trade-in.</h3>
+    <h4>Learn more>  Buy></h4>
+  <section>
+    <img src="https://photos5.appleinsider.com/gallery/32799-56620-iphone-11-fan-header-l.jpg" class="image">
+  </section>
+  </section>
+  <section id="ipad">
+    <h1>iPad Pro</h1>
+    <h2>Your next Computer is not a Computer</h2>
+    <h3>From $23.60/mo.or $999 with trade-in.</h3>
+    <h4>Learn more >  Buy ></h4>
+  <section>
+    <img src="https://techsquard.com/wp-content/uploads/2018/06/android.jpg" class="ipad-pro">
+  </section>
+  </section>
+    <section id="watchOS">
+      <h1>WatchOS7</h1>
+      <h2>Take on the Day and Bring on the nigth</h2>
+      <h3>From $7.45/mo.or $199 with trade-in.</h3>
+      <h4>Learn more >  Buy ></h4>
+  <section>
+    <img src="https://worldnews.easybranches.com/uploads/news/2020/06/where-to-get-the-best-price-on-the-apple-watch-series-5-ahead-of-watchos-7.jpg" class="watchOS-7">
+  </section>
+  </section>
+  <article>
+  <section id="Shop">
+    <h4>Shop and learn</h4>
+    <li>Mac</li>
+    <li>ipad</li>
+    <li>iphone</li>
+    <li>Watch</li>
+    <li>TV</li>
+    <li>Music</li>
+    <li>AirPods</li>
+  </section>
+  <section id="Service">
+    <h4>Services</h4>
+    <li>Apple Music</li>
+    <li>Apple News+</li>
+    <li>Apple TV+</li>
+    <li>Apple arcade</li>
+    <li>Apple Books</li>
+    <li>Apple card</li>
+    <li>iCloud</li>
+  </section>
+  <section id="store">
+    <h4>Apple Store </h4>
+    <li>Find a store</li>
+    <li>Shop Online</li>
+    <li>Genious Bar</li>
+    <li>Today at Apple</li>
+    <li>Apple Camp</li>
+    <li>Field trip</li>
+    <li>Shopping Help</li>
+  </section>
+    <section id="value">
+    <h4>Apple values</h4>
+    <li>Accessbility</li>
+    <li>Education</li>
+    <li>Environment</li>
+    <li>Inclusion and Diversity</li>
+    <li>Privacy</li>
+    <li>Supplier Responsibility</li>
+    <li>Leadership</li>
+  </section>
+  </article>
+</body>
+</html>
